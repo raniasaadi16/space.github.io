@@ -1,0 +1,452 @@
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300;400;700&display=swap');
+a{
+    color: inherit !important;
+    text-decoration: none !important;
+}
+@font-face {
+    font-family: std;
+    src: url('../fonts/circular-std-medium-500.ttf');
+}
+.list-none{
+    list-style: none;
+}
+.text-decoration-line-through{
+    text-decoration: line-through;
+}
+.text-gray{
+    color: #F6F6F6 !important;
+}
+.bg-gray{
+    background: #F6F6F6 !important;
+}
+.text-gray-dark{
+    color: #666666;
+}
+.bg-gray-dark{
+    background: #666666;
+}
+.text-black{
+    color: #000 !important;
+}
+.bg-black{
+    background: #000 !important;
+}
+.wm{
+    width: max-content;
+}
+.shadow{
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15) !important;
+}
+.mt-sec{
+    margin-top: 100px;
+}
+body{
+    font-family: std;
+}
+.lato{
+    font-family:'Lato', sans-serif; ;
+}
+.navbar-nav li{
+    margin: 0 5px;
+}
+nav .cart-count{
+    font-size: 10px;
+    color: #fff;
+    width: 16px;
+    height: 16px;
+    top: 0;
+    right: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+header,header .carousel-inner,header .carousel-item{
+    height: 100vh;
+}
+header img{
+    height: 100vh;
+    object-fit: cover;
+}
+header .text-box{
+    z-index: 2;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+}
+.sub-title{
+    max-width: 725px;
+}
+.num{
+    background: #A7A7A7;
+    width: 40px;
+    height: 40px;
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.w-full{
+    width: 100%;
+}
+.products img{
+    width: 100%;
+    object-fit: cover;
+}
+.products .mt-row{
+    margin-top: 30px;
+}
+.products .row-img{
+    height: 216px;
+}
+.map form {
+    top: 40%;
+    max-width: 700px;
+    margin: auto;
+    left: 50%;
+    transform: translateX(-50%);
+}
+.map form svg{
+    position: absolute;
+    top: 50%;
+    transform: translateY(-50%);
+    font-size: 23px;
+    left: 21px;
+}
+.map form input{
+    padding-left: 34px;
+}
+.testimonials{
+    height: 384px;
+}
+.testimonials .owl-carousel{
+    overflow: hidden;
+}
+.testimonials .owl-stage-outer{
+    overflow: initial !important;
+}
+.testimonials .owl-dots{
+    display: flex;
+    justify-content: center;
+    margin-top: 50px;
+}
+.testimonials .owl-dots button{
+    width: 15px;
+    height: 15px;
+    background: #E5E5E5 !important;
+    border-radius: 50%;
+    margin: 0 5px;
+}
+.testimonials .owl-dots button.active{
+    background: #000 !important;
+}
+.testimonials .owl-nav{
+    display: flex;
+    justify-content: space-between;
+    position: absolute;
+    top: 50%;
+    width: 100%;
+}
+.testimonials .owl-nav button{
+    border: 1px solid #10151E !important;
+    color: #10151E !important;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.testimonials .img-box{
+    background-color: #C4C4C4;
+    height: 179px;
+}
+.testimonials .img-box img{
+    position: relative;
+    top: -20px;
+    height: 198px;
+}
+.testimonials .review-content{
+    line-height: 23px;
+    text-align: justify;
+}
+.mt-feed{
+    margin-top: 240px;
+}
+.feed img{
+    width: 100%;
+}
+.subscribe{
+    background: linear-gradient(268.53deg, rgba(229, 229, 229, 0) 1.19%, #000000 62.87%),url('../images/france_west_4251_2000x2000.jpeg');
+    background-position: center;
+    background-size: cover;
+}
+.breadcrumb ol{
+    padding: 0;
+    margin: 0;
+    background: transparent;
+    font-size: 14px;
+}
+.product-overview .carousel-ov{
+    width: 99px;
+    height: 99px;
+    opacity: 15%;
+    cursor: pointer;
+}
+.product-overview .carousel-ov.active{
+    opacity: 100%;
+}
+.product-overview .carousel-img{
+    width: 100%;
+    height: 100%;
+}
+.notification{
+    background: #F0F0F0;
+}
+.notification svg{
+    font-size: 18px;
+}
+.input-cart{
+    background: #F0F0F0;
+}
+.cart .item img{
+    width: 140px;
+    height: 140px;
+}
+.input-number{
+    background: #F0F0F0;
+}
+.cart td, .cart th{
+    border: 0 !important;
+}
+.title svg{
+    font-size: 64px;
+}
+.order-details th{
+    border: 0 !important;
+}
+.order-invoice{
+    width: 40%;
+    margin-left: auto;
+}
+.order-invoice .last{
+    border-top: 2px solid #000;
+}
+.tab-pane.active{
+    background-color: #fff;
+}
+.products #pagingControls{
+    display: flex;
+    justify-content: center;
+    margin: 30px;
+}
+.products .btn-sm{
+    background: #ffff !important;
+    border: none;
+    border-radius: 0;
+}
+.products .btn-default{
+    background: #000 !important;
+    color: #fff !important;
+}
+footer .social-media{
+    width: 30px;
+    height: 30px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: #777786;
+}
+footer .social-media svg{
+    font-size: 18px;
+}
+footer .logo{
+    width: 130px;
+}
+@media screen and (min-height: 865px) {
+    header,header .carousel-inner,header .carousel-item{
+        height: 865px;
+    }
+}
+@media screen and (max-width: 992px) {
+    .thumbs-list{
+        flex-wrap: wrap-reverse;
+    }
+    .carousel-ov{
+        margin-top: 20px !important;
+    }
+    .thumbs{
+        display: flex;
+        justify-content: space-between;
+        width: 100%;
+    }
+    .footer-row{
+        display: block !important;
+    }
+    .footer-row ul{
+        padding: 0;
+        display: grid !important;
+        grid-template-columns: 2fr 2fr;
+        margin-top: 7px;
+    }
+    .footer-row p{
+        font-size: 14px;
+    }
+    footer .social-media{
+        margin-top: 15px;
+    }
+}
+@media screen and (max-width:786px) {
+    .wm{
+        width: auto;
+    }
+    .products-row{
+        overflow: auto;
+        flex-wrap: nowrap;
+    }
+    .sub-row{
+        flex-wrap: nowrap;
+    }
+    .product{
+        width: 100%;
+    }
+    .mobile-mr{
+        margin-right: 1080px;
+    }
+    .mobile-ml{
+        margin-left: 540px;
+    }
+    .overview,.p-mobile-0{
+        padding: 0 !important;
+        max-width: 100% !important;
+    }
+    .overview a{
+        font-size: 14px;
+        padding: 10px !important;
+        width: max-content;
+    }
+    .product-overview .carousel-ov{
+        width: 50px;
+        height: 50px;
+    }
+    .map img{
+        margin-top: 20px;
+        height: 150px;
+    }
+    .map form{
+        display: block !important;
+        top: 10%;
+    }
+    .map form input,.map form button{
+        padding-bottom: 5px !important;
+        padding-top: 5px !important;
+        margin: 5px 0 !important;
+    }
+    .map form button{
+        display: block;
+        margin-left: auto;
+        margin-right: auto;
+    }
+    .feed.mt-feed{
+        margin-top: 300px;
+    }
+    .add-btn{
+        display: block !important;
+    }
+    .add-btn button{
+        margin: 5px 0 0 0 !important;
+    }
+    .cart .buttons{
+        display: block !important;
+        margin-top: 20px;
+    }
+    .cart .button-gr{
+        display: flex;
+        justify-content: space-between;
+    }
+    .cart .button-gr-2{
+        justify-content: space-between;
+        margin-top: 15px;
+    }
+    .cart .button-gr-2 input{
+        width: 100%;
+    }
+    .cart .unit,.cart .price,.cart .qty{
+        display: block;
+    }
+    .cart .total{
+        display: none;
+    }
+    .cart th{
+        display: none;
+    }
+    .cart .close{
+        position: absolute;
+        top: 0;
+        right: 0;
+    }
+    .cart .rever{
+        flex-wrap: wrap-reverse;
+    }
+    .order-invoice{
+        width: 100%;
+    }
+    .icone-item{
+        width: max-content !important;
+        margin: auto;
+        display: block;
+        margin-top: 25px;
+    }
+    .subscribe{
+        background:  linear-gradient(179.91deg, rgba(39, 38, 38, 0.92) 37.42%, rgba(107, 107, 107, 0) 81.54%),url('../images/france_west_4251_2000x2000.jpeg');
+    }
+    .subscribe form{
+        display: block !important;
+        margin-top: 30px;
+    }
+    .subscribe form input{
+        width: 100%;
+    }
+    .subscribe form input,.subscribe form input{
+        margin: 15px 0 !important;
+        display: block;
+    }
+    .products .d-sm{
+        display: block !important;
+    }
+    .products .d-sm button{
+        display: none;
+    }
+    .products .my-sm{
+        margin: 10px 0;
+    }
+    .products .menu{
+        display: none;
+    }
+    .products .select-menu{
+        display: block !important;
+    }
+}
+@media screen and (max-width:608px) {
+    .sub-row{
+        width: 500px;
+    }
+    .product{
+        width: 400px;
+    }
+    .mobile-mr{
+        margin-right: 841px;
+    }
+    .mobile-ml{
+        margin-left: 421px;
+    }
+}
+@media screen and (min-width:450px) and (max-width:540px) {
+    .mobile-ml{
+        margin-left: 498px;
+    }
+}
+@media screen and (max-width:424px) {
+    .mobile-mr{
+        margin-right: 918px;
+    }
+}

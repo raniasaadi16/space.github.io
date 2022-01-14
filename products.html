@@ -1,0 +1,334 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+    <link rel="stylesheet" href="./assets/css/jquery.paginate.css">
+</head>
+<body class="bg-gray">
+    <!--TOP NAV-->
+    <div class="bg-dark py-2">
+        <div class="container d-flex justify-content-between text-white lato font-weight-light">
+            <div>
+                <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    English
+                  </a>
+                
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="#">Language</a>
+                    <a class="dropdown-item" href="#">Language</a>
+                    <a class="dropdown-item" href="#">Language</a>
+                  </div>
+            </div>
+            <div class="links">
+                <a href="" class="d-inline-block">Login</a>
+                <p class="mb-0 d-inline-block mx-2">|</p>
+                <a href="" class="d-inline-block">Subscribe</a>
+            </div>
+        </div>
+    </div>
+
+    <!--MAIN NAV-->
+    <div class="bg-white">
+      <div class="container bg-white">
+          <nav class="navbar navbar-expand-lg px-0">
+              <a class="navbar-brand" href="/">
+                  <img src="./assets/images/logo.svg" class="logo" alt="">
+              </a>
+              <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="iconify" data-icon="fontisto:nav-icon-a"></span>
+              </button>
+            
+              <div class="collapse navbar-collapse lato font-weight-light" id="navbarSupportedContent">
+                <ul class="navbar-nav mx-auto">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Europe</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">North America</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">South America</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Asia</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Africa</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Australia</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Antarctica</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Islands</a>
+                  </li>
+                </ul>
+                <div class="form-inline">
+                  <div class="position-relative">
+                    <div class="position-absolute bg-black rounded-circle cart-count">
+                      <p class="mb-0">0</p>
+                    </div>
+                    <span class="iconify" data-icon="bi:cart" style="font-size: 31px"></span>
+                  </div>
+                </div>
+              </div>
+            </nav>
+      </div>
+    </div>
+    
+    <div class="container">
+        <nav class="breadcrumb bg-white px-3 py-1 text-secondary font-weight-light wm mt-5" aria-label="breadcrumb">
+            <ol class="breadcrumb">
+                <li class="breadcrumb-item"><a href="">Home</a></li>
+                <li class="breadcrumb-item active text-black font-weight-bold" aria-current="page">Los Angeles</li>
+            </ol>
+        </nav>
+    </div>
+
+    <section class="container products mt-5">
+        <div class="row">
+            <div class="col-lg-3 mb-3">
+                <div class="bg-white p-4 lato menu">
+                    <div class="first border-bottom font-weight-bold">
+                        <p>Europe</p>
+                    </div>
+                    <div class="font-weight-light mt-3">
+                        <p>Europe</p>
+                        <p>Italie</p>
+                        <p>Espagne</p>
+                        <p>France</p>
+                        <p>Portugal</p>
+                        <p>Island</p>
+                    </div>
+                </div>
+                <select class="custom-select px-3 py-2 border-0 lato font-weight-light rounded-0 select-menu" id="inputGroupSelect03" style="display: none;">
+                  <option selected>
+                      <p class="mb-0">Europe</p>
+                  </option>
+                  <option value="1">Europe</option>
+                  <option value="2">Italie</option>
+                  <option value="3">Espagne</option>
+                  <option value="4">France</option>
+                  <option value="5">Portugal</option>
+                  <option value="6">Island</option>
+               </select>
+            </div>
+            <div class="col-lg-9">
+              <div class="d-flex justify-content-between d-sm">
+                <div class="d-flex justify-content-between my-sm">
+                    <select class="custom-select px-3 py-2 border-0 lato font-weight-light rounded-0" id="inputGroupSelect01">
+                        <option selected>
+                            <p class="mb-0">Sort by Position</p>
+                        </option>
+                        <option value="1">Sort by</option>
+                        <option value="2">Sort by</option>
+                        <option value="3">Sort by</option>
+                     </select>
+                     <select class="custom-select px-3 py-2 border-0 lato font-weight-light rounded-0 ml-3" id="inputGroupSelect02">
+                        <option selected>
+                            <p class="mb-0">Show 9</p>
+                        </option>
+                        <option value="1">Show 9</option>
+                        <option value="2">Show 9</option>
+                        <option value="3">Show 9</option>
+                     </select>
+                </div>
+                <div class="d-flex lato font-weight-light justify-content-between">
+                  <input type="text" class="bg-white w-100 px-4 py-2 rounded-0 border-0" placeholder="Search">
+                  <button class="btn bg-black text-white py-2 px-3 rounded-0 mx-3">Search</button>
+                  <button class="btn bg-gray-dark text-black py-2 px-3 rounded-0">Reset</button>
+                </div>
+              </div>
+                <div class="mt-3">
+                    <div class="row" id="content">
+                        <div class="col-lg-4 my-2 item">
+                            <div class="p-1 bg-white">
+                                <img src="./assets/images/san_francisco_2_2000x2000.jpeg" alt="">
+                                <div class="py-1 lato d-flex justify-content-between align-items-center px-1">
+                                  <h6 class="mb-0">€10.00</h6>
+                                  <div class="d-flex align-items-center text-secondary font-weight-light">
+                                    <span class="iconify" data-icon="ep:place"></span>
+                                    <p class="mb-0 ml-2">Los Angeles</p>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 my-2 item">
+                            <div class="p-1 bg-white">
+                                <img src="./assets/images/tokyo_228_2000x2000.jpeg" alt="">
+                                <div class="py-1 lato d-flex justify-content-between align-items-center px-1">
+                                  <h6 class="mb-0">€10.00</h6>
+                                  <div class="d-flex align-items-center text-secondary font-weight-light">
+                                    <span class="iconify" data-icon="ep:place"></span>
+                                    <p class="mb-0 ml-2">Los Angeles</p>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 my-2 item">
+                            <div class="p-1 bg-white">
+                                <img src="./assets/images/france_west_4251_2000x2000.jpeg" alt="">
+                                <div class="py-1 lato d-flex justify-content-between align-items-center px-1">
+                                  <h6 class="mb-0">€10.00</h6>
+                                  <div class="d-flex align-items-center text-secondary font-weight-light">
+                                    <span class="iconify" data-icon="ep:place"></span>
+                                    <p class="mb-0 ml-2">Los Angeles</p>
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 my-2 item">
+                            <div class="p-1 bg-white">
+                                <img src="./assets/images/san_francisco_2_2000x2000.jpeg" alt="">
+                                <div class="py-1 lato d-flex justify-content-between align-items-center px-1">
+                                  <h6 class="mb-0">€10.00</h6>
+                                  <div class="d-flex align-items-center text-secondary font-weight-light">
+                                    <span class="iconify" data-icon="ep:place"></span>
+                                    <p class="mb-0 ml-2">Los Angeles</p>                                  
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 my-2 item">
+                            <div class="p-1 bg-white">
+                                <img src="./assets/images/tokyo_228_2000x2000.jpeg" alt="">
+                                <div class="py-1 lato d-flex justify-content-between align-items-center px-1">
+                                  <h6 class="mb-0">€10.00</h6>
+                                  <div class="d-flex align-items-center text-secondary font-weight-light">
+                                    <span class="iconify" data-icon="ep:place"></span>
+                                    <p class="mb-0 ml-2">Los Angeles</p>                                  
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 my-2 item">
+                            <div class="p-1 bg-white">
+                                <img src="./assets/images/france_west_4251_2000x2000.jpeg" alt="">
+                                <div class="py-1 lato d-flex justify-content-between align-items-center px-1">
+                                  <h6 class="mb-0">€10.00</h6>
+                                  <div class="d-flex align-items-center text-secondary font-weight-light">
+                                    <span class="iconify" data-icon="ep:place"></span>
+                                    <p class="mb-0 ml-2">Los Angeles</p>                                  
+                                  </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 my-2 item">
+                          <div class="p-1 bg-white">
+                              <img src="./assets/images/san_francisco_2_2000x2000.jpeg" alt="">
+                              <div class="py-1 lato d-flex justify-content-between align-items-center px-1">
+                                <h6 class="mb-0">€10.00</h6>
+                                <div class="d-flex align-items-center text-secondary font-weight-light">
+                                  <span class="iconify" data-icon="ep:place"></span>
+                                  <p class="mb-0 ml-2">Los Angeles</p>                               
+                                </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="col-lg-4 my-2 item">
+                        <div class="p-1 bg-white">
+                            <img src="./assets/images/san_francisco_2_2000x2000.jpeg" alt="">
+                            <div class="py-1 lato d-flex justify-content-between align-items-center px-1">
+                              <h6 class="mb-0">€10.00</h6>
+                              <div class="d-flex align-items-center text-secondary font-weight-light">
+                                <span class="iconify" data-icon="ep:place"></span>
+                                <p class="mb-0 ml-2">Los Angeles</p>                              
+                              </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="col-lg-4 my-2 item">
+                      <div class="p-1 bg-white">
+                          <img src="./assets/images/san_francisco_2_2000x2000.jpeg" alt="">
+                          <div class="py-1 lato d-flex justify-content-between align-items-center px-1">
+                            <h6 class="mb-0">€10.00</h6>
+                            <div class="d-flex align-items-center text-secondary font-weight-light">
+                              <span class="iconify" data-icon="ep:place"></span>
+                              <p class="mb-0 ml-2">Los Angeles</p>                            
+                            </div>
+                          </div>
+                      </div>
+                  </div>
+                    </div>
+                </div>
+                <div id="pagingControls"></div>
+            </div>
+        </div>
+    </section>
+
+
+
+      <!--FOOTER-->
+    <footer class="py-2 bg-white">
+      <div class="container bg-white">
+        <div class="d-flex align-items-center px-0 border-bottom py-3 footer-row">
+            <a class="" href="/">
+                <img src="./assets/images/logo.svg" class="logo" alt="">
+            </a>
+            <div class="d-flex justify-content-between w-full lato font-weight-light footer-row">
+              <ul class="d-flex justify-content-center m-auto list-none">
+                <li class="nav-item active">
+                  <a class="nav-link" href="#">Europe</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">North America</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">South America</a>
+                </li>
+                <li class="nav-item">
+                  <a class="nav-link" href="#">Asia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Africa</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Australia</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Antarctica</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Islands</a>
+                </li>
+              </ul>
+              <div class="form-inline d-flex">
+                <div class="social-media rounded-circle border mx-1">
+                  <span class="iconify" data-icon="bx:bxl-instagram-alt"></span>
+                </div>
+                <div class="social-media rounded-circle border mx-1">
+                  <span class="iconify" data-icon="akar-icons:twitter-fill"></span>
+                </div>
+                <div class="social-media rounded-circle border mx-1">
+                  <span class="iconify" data-icon="entypo-social:linkedin-with-circle"></span>
+                </div>
+                <div class="social-media rounded-circle border mx-1">
+                  <span class="iconify" data-icon="eva:facebook-fill"></span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="d-flex justify-content-between py-2 text-secondary lato align-items-center ">
+            <p class="mb-0">© 2021 Pixel From Space . Cookie Policy | Privacy Policy | Terms of Use</p>
+            <img src="./assets/images/footer.svg" alt="">
+          </div>
+      </div>
+    </footer>
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="./assets/js/flexible.pagination.js"></script>
+    <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>

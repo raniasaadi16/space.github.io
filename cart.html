@@ -1,0 +1,307 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="./assets/css/owl.carousel.min.css">
+    <link rel="stylesheet" href="./assets/css/main.css">
+</head>
+<body class="bg-gray">
+    <!--TOP NAV-->
+    <div class="bg-dark py-2">
+        <div class="container d-flex justify-content-between text-white lato font-weight-light">
+            <div>
+                <a class="dropdown-toggle" href="#" role="button" id="dropdownMenuLink" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    English
+                  </a>
+                
+                  <div class="dropdown-menu" aria-labelledby="dropdownMenuLink">
+                    <a class="dropdown-item" href="#">Language</a>
+                    <a class="dropdown-item" href="#">Language</a>
+                    <a class="dropdown-item" href="#">Language</a>
+                  </div>
+            </div>
+            <div class="links">
+                <a href="" class="d-inline-block">Login</a>
+                <p class="mb-0 d-inline-block mx-2">|</p>
+                <a href="" class="d-inline-block">Subscribe</a>
+            </div>
+        </div>
+    </div>
+
+    <!--MAIN NAV-->
+    <div class="bg-white">
+        <div class="container bg-white">
+            <nav class="navbar navbar-expand-lg px-0">
+                <a class="navbar-brand" href="/">
+                    <img src="./assets/images/logo.svg" class="logo" alt="">
+                </a>
+                <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+                  <span class="iconify" data-icon="fontisto:nav-icon-a"></span>
+                </button>
+              
+                <div class="collapse navbar-collapse lato font-weight-light" id="navbarSupportedContent">
+                  <ul class="navbar-nav mx-auto">
+                    <li class="nav-item active">
+                      <a class="nav-link" href="#">Europe</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">North America</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">South America</a>
+                    </li>
+                    <li class="nav-item">
+                      <a class="nav-link" href="#">Asia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Africa</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Australia</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Antarctica</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="#">Islands</a>
+                    </li>
+                  </ul>
+                  <div class="form-inline">
+                    <div class="position-relative">
+                      <div class="position-absolute bg-black rounded-circle cart-count">
+                        <p class="mb-0">0</p>
+                      </div>
+                      <span class="iconify" data-icon="bi:cart" style="font-size: 31px"></span>
+                    </div>
+                  </div>
+                </div>
+              </nav>
+        </div>
+      </div>
+
+    <div class="container mb-5">
+        <div class="mt-5">
+            <div class="title">
+                <h2 class="text-center">Your Cart</h2>
+            </div>
+        </div>
+    
+        <!--NOTIFICATION-->
+        <div class="px-5 py-3 notification mt-5">
+            <div class="d-flex align-items-center">
+                <span class="iconify" data-icon="ant-design:check-circle-filled"></span>
+                <p class="mb-0 lato ml-3">Success Item has been added to cart</p>
+            </div>
+        </div>
+
+        <section class="mt-4 cart">
+            <div class="row rever">
+                <div class="col-lg-3 my-2">
+                    <div class="bg-white p-4 lato">
+                        <div class="first font-weight-bold">
+                            <p>Summary</p>
+                        </div>
+                        <div class="font-weight-light mt-4">
+                            <div class="d-flex justify-content-between">
+                                <p>Total</p>
+                                <p>€20.00</p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <p>Estimated shipping cost:</p>
+                                <p>€0.00</p>
+                            </div>
+                            <div class="d-flex justify-content-between">
+                                <p>Taxes total:</p>
+                                <p>€0.00</p>
+                            </div>
+                        </div>
+                        <div class="first font-weight-bold mt-4 d-flex justify-content-between">
+                            <p>Order total:</p>
+                            <p>€20.00</p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-lg-9 my-2">
+                   <div class="d-flex justify-content-between lato buttons">
+                       <div class="button-gr">
+                           <button class="btn rounded-0 bg-black text-white px-4 py-2 font-weight-bold">Update Cart</button>
+                           <button class="btn rounded-0 bg-transparent border border-dark text-black px-4 py-2 ml-3 font-weight-bold">Clear Cart</button>
+                       </div>
+                       <div class="d-flex button-gr-2">
+                           <input type="text" placeholder="Enter Your Code" class="px-3 py-2 rounded-0 input-cart border-0 font-weight-light">
+                           <button class="btn rounded-0 bg-black text-white px-4 py-2 font-weight-bold">Apply Cuopun</button>
+                       </div>
+                   </div>
+                   <div class="mt-5">
+                    <table class="table table-borderless lato">
+                        <thead>
+                          <tr class="table-top border-0">
+                            <th scope="col">Item</th>
+                            <th scope="col">Unit</th>
+                            <th scope="col">Price</th>
+                            <th scope="col">Qty</th>
+                            <th scope="col">Total</th>
+                            <th scope="col"></th>
+                        </thead>
+                        <tbody class="bg-white">
+                          <tr class="position-relative">
+                            <td class="item">
+                                <img src="./assets/images/bahamas_2697_2000x2000.jpeg" alt="">
+                            </td>
+                            <td class="unit">
+                                <h5>Los Angeles</h5>
+                                <h6 class="font-weight-light mb-0 mt-3">los_angeles-x12 12"x12"</h6>
+                            </td>
+                            <td class="price">€10.00</td>
+                            <td class="qty">
+                                <input type="number" value="1" class="input-number text-secondary text-center border-0">
+                            </td>
+                            <td class="total">€10.00</td>
+                            <td class="close">
+                                <button class="btn bg-transparent">X</button>
+                            </td>
+                          </tr>
+                        </tbody>
+                      </table>
+                   </div>
+                   <div class="mt-5">
+                       <a href="" class="btn bg-black text-white py-3 px-5 rounded-0 lato float-right">Check out</a>
+                   </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="mt-5 products">
+            <div class="title">
+                <h2 class="text-center">You may also like</h2>
+            </div>
+            <div class="owl-carousel owl-carousel2 mt-4">
+                <div class="item">
+                  <div class="p-1 bg-white">
+                    <img src="./assets/images/san_francisco_2_2000x2000.jpeg" alt="">
+                    <div class="py-1 lato d-flex justify-content-between align-items-center px-1">
+                      <h6 class="mb-0">€10.00</h6>
+                      <div class="d-flex align-items-center text-secondary font-weight-light">
+                        <span class="iconify" data-icon="ep:place"></span>
+                        <p class="mb-0 ml-2">Los Angeles</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="item">
+                  <div class="p-1 bg-white">
+                    <img src="./assets/images/tokyo_228_2000x2000.jpeg" alt="">
+                    <div class="py-1 lato d-flex justify-content-between align-items-center px-1">
+                      <h6 class="mb-0">€10.00</h6>
+                      <div class="d-flex align-items-center text-secondary font-weight-light">
+                        <span class="iconify" data-icon="ep:place"></span>
+                        <p class="mb-0 ml-2">Los Angeles</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="item">
+                  <div class="p-1 bg-white">
+                    <img src="./assets/images/france_west_4251_2000x2000.jpeg" alt="">
+                    <div class="py-1 lato d-flex justify-content-between align-items-center px-1">
+                      <h6 class="mb-0">€10.00</h6>
+                      <div class="d-flex align-items-center text-secondary font-weight-light">
+                        <span class="iconify" data-icon="ep:place"></span>
+                        <p class="mb-0 ml-2">Los Angeles</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+    
+                <div class="item">
+                  <div class="p-1 bg-white">
+                    <img src="./assets/images/barcelona_1791_2000x2000.jpeg" alt="">
+                    <div class="py-1 lato d-flex justify-content-between align-items-center px-1">
+                      <h6 class="mb-0">€10.00</h6>
+                      <div class="d-flex align-items-center text-secondary font-weight-light">
+                        <span class="iconify" data-icon="ep:place"></span>
+                        <p class="mb-0 ml-2">Los Angeles</p>
+                      </div>
+                    </div>
+                  </div>
+                </div>
+              </div>
+        </section>
+        
+    </div>
+
+    <!--FOOTER-->
+    <footer class="py-2 bg-white">
+        <div class="container bg-white">
+          <div class="d-flex align-items-center px-0 border-bottom py-3 footer-row">
+              <a class="" href="/">
+                  <img src="./assets/images/logo.svg" class="logo" alt="">
+              </a>
+              <div class="d-flex justify-content-between w-full lato font-weight-light footer-row">
+                <ul class="d-flex justify-content-center m-auto list-none">
+                  <li class="nav-item active">
+                    <a class="nav-link" href="#">Europe</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">North America</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">South America</a>
+                  </li>
+                  <li class="nav-item">
+                    <a class="nav-link" href="#">Asia</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Africa</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Australia</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Antarctica</a>
+                  </li>
+                  <li class="nav-item">
+                      <a class="nav-link" href="#">Islands</a>
+                  </li>
+                </ul>
+                <div class="form-inline d-flex">
+                  <div class="social-media rounded-circle border mx-1">
+                    <span class="iconify" data-icon="bx:bxl-instagram-alt"></span>
+                  </div>
+                  <div class="social-media rounded-circle border mx-1">
+                    <span class="iconify" data-icon="akar-icons:twitter-fill"></span>
+                  </div>
+                  <div class="social-media rounded-circle border mx-1">
+                    <span class="iconify" data-icon="entypo-social:linkedin-with-circle"></span>
+                  </div>
+                  <div class="social-media rounded-circle border mx-1">
+                    <span class="iconify" data-icon="eva:facebook-fill"></span>
+                  </div>
+                </div>
+              </div>
+            </div>
+            <div class="d-flex justify-content-between py-2 text-secondary lato align-items-center ">
+              <p class="mb-0">© 2021 Pixel From Space . Cookie Policy | Privacy Policy | Terms of Use</p>
+              <img src="./assets/images/footer.svg" alt="">
+            </div>
+        </div>
+      </footer>
+
+
+
+
+
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+    <script src="https://code.iconify.design/2/2.1.0/iconify.min.js"></script>
+    <script src="./assets/js/owl.carousel.min.js"></script>
+    <script src="./assets/js/script.js"></script>
+</body>
+</html>
